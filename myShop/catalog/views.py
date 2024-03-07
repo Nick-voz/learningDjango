@@ -6,4 +6,5 @@ from django.http.response import HttpResponse
 
 
 def catalog_home(request: HttpRequest):
-    return HttpResponse(f'<h1> catalog home page </h1>')
+    "mock fiuc for path: './catalog/"
+    return HttpResponse('<h1> catalog home page </h1>')
